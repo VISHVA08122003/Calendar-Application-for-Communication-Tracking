@@ -1,0 +1,57 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://www.desktopbackground.org/download/o/2015/04/03/927220_download-stock-photos-of-business-communication-images-photography_3800x2533_h.jpg");
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents tiling of the background image */
+    background-position: center; /* Centers the image in the background */
+    color: #fff; /* Adjusts text color to be readable over the background */
+  }
+  
+  .home-header h1,
+  .home-header p {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow for text readability */
+    color: black;
+  }
+  
+  .home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .home-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(0, 123, 255, 0.8); /* Slightly transparent blue */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: rgba(0, 123, 255, 1); /* Fully opaque blue on hover */
+  }
+  
+  .home-footer {
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Footer text shadow */
+    color: black;
+  }
+  
